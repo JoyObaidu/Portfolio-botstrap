@@ -55,7 +55,9 @@ body{
     letter-spacing: 2px;
 }
 
-
+#newsletter{
+    padding-top: 10px;
+}
 /* About*/
 
 #about .btn{
