@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.navbar{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    background: rgba(0, 0, 0, 0.8) !important; 
+    padding: 20px 0;
+}
+.offset:before{
+    display: block;
+    content: "";
+    height: 6rem;
+}
+.navbar a{
+    color: #fff;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+    padding: 20px;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #1ebba1;
+} 
+
+.heading-content{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    max-width: 100%;
+}
+.heading-content h5{
+    font-size: 5em;
+    font-weight: 900;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+}
+.heading-content h1{
+    font-size: 6em;
+    font-weight: bolder;
+}
+.heading-content p{
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #ccc;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+#newsletter{
+    padding-top: 10px;
+}
+/* About*/
+
+#about .btn{
+    border: 2px solid transparent;
+    width: 40px;
+    padding: 15px 22px;
+    background: #000;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#about .btn a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#about .btn a:hover{
+    border: 2px solid #1ebba3;
+    cursor: pointer;
+}
+
+/*Service*/
+#service .btn{
+    border: 2px solid transparent;
+    padding: 15px 22px;
+    background: #000;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#service .btn a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#service .btn a:hover{
+    border: 2px solid #1ebba3;
+    cursor: pointer;
+}
+
+/* Newsletter */
+.sec1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #f8fafb;
+}
+.sec1 h2{
+     font-weight: bold;
+     letter-spacing: 3px;
+     line-height: 50px;
+}
+.sec1 h2{
+    font-weight: 400;
+}
+
+/*/tablets*/
+@media screen and (max-width: 768px) {
+    .navbar{
+        font-size: 14px;
+        font-weight: 600;
+        padding: 8px 0;
+    }
+    .heading-content{
+        position: absolute;
+        top: 40%;
+        width: 100%;
+        max-width: 100%;
+    }
+    .heading-content h5{
+        font-size: 5em;
+        font-weight: 900;
+        word-spacing: 5px;
+        letter-spacing: 5px;
+    }
+    .heading-content h1{
+        font-size: 4em;
+        font-weight: bolder;
+    }
+    
+    
+}
+/*phone*/
+@media screen and (max-width: 479px) {
+    .navbar{
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 10px;
+        font-weight: 400;
+        letter-spacing: 0.2rem;
+        background-color: #000 !important;
+        padding: 6px 0;
+    }
+    .heading-content{
+        position: absolute;
+        top: 40%;
+        width: 100%;
+        max-width: 100%;
+    }
+    .heading-content h5{
+        font-size: 2em;
+        font-weight: 900;
+        word-spacing: 5px;
+        letter-spacing: 5px;
+        color: #000 !important;
+    }
+    .heading-content h1{
+        font-size: 2.5em;
+        font-weight: bolder;
+        color: #000 !important;
+    }
+    .heading-content p{
+        font-size: 0.5em;
+        text-transform: uppercase;
+        font-weight: lighter;
+        color: #ccc;
+        word-spacing: 5px;
+        letter-spacing: 2px;
+    }
+    #contact .post-heading{
+        font-size: 3rem;
+    }
+    
+}
